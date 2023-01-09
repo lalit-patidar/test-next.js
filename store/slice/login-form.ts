@@ -79,6 +79,6 @@ export const loginFromSlice = createSlice({
   },
 });
 
-export const {formValidation, textInputChange, hello} = loginFromSlice.actions
+export const {formValidation, textInputChange} = loginFromSlice.actions
 
 export default loginFromSlice.reducer;
